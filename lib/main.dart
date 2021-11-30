@@ -21,6 +21,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
         primaryTextTheme: GoogleFonts.latoTextTheme(),
+        fontFamily: GoogleFonts.lato().fontFamily,
       ),
       routes: {
         "/": (context) => LoginPage(),
