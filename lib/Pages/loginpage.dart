@@ -6,11 +6,12 @@ class LoginPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(title: Text('Login Page'),),
-      body: Center(
-        child: Container(
-          child: Text('Login Page'),
-        ),
+      body: Column(
+        children: [
+          Image.asset('assets/images/404_error.png')
+        ],
       ),
     );
   }
