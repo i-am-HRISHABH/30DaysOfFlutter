@@ -8,7 +8,7 @@ class MyDrawer extends StatelessWidget {
     final imageUrlP =
         'https://scontent-bom1-2.cdninstagram.com/v/t51.2885-15/e35/242695662_288631719414043_1496721212294513403_n.webp.jpg?_nc_ht=scontent-bom1-2.cdninstagram.com&_nc_cat=107&_nc_ohc=R1abfNToV2wAX8_lXBZ&edm=AP_V10EBAAAA&ccb=7-4&oh=dd6e234ef42183a704e3b501be5b202e&oe=61BAEBCC&_nc_sid=4f375e';
     final imageURL =
-        'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.insider.com%2Fchris-hemsworth-posts-photo-huge-arms-gets-trolled-skinny-legs-2021-5&psig=AOvVaw03ZDifrWizZVcReO0eDNeq&ust=1639402639865000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIiu9_iw3vQCFQAAAAAdAAAAABAD';
+        'https://scontent-pnq1-2.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/125901832_413196043401642_4908680915974655129_n.jpg?_nc_ht=scontent-pnq1-2.cdninstagram.com&_nc_cat=106&_nc_ohc=LWH7TM-shfQAX8L-XJV&edm=AP_V10EBAAAA&ccb=7-4&oh=00_AT_cpOy8tNqEYX89YeHYNtg2L0Sa01sBVAc-IEgcONRDig&oe=61C5569A&_nc_sid=4f375e';
     return Drawer(
       child: Container(
         color: Colors.deepPurple,
@@ -27,7 +27,7 @@ class MyDrawer extends StatelessWidget {
                   style: TextStyle(color: Colors.white),
                 ),
                 currentAccountPicture:
-                    CircleAvatar(backgroundImage: NetworkImage(imageUrlP)),
+                    CircleAvatar(backgroundImage: NetworkImage(imageURL)),
               ),
             ),
             ListTile(
