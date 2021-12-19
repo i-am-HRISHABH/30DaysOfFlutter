@@ -1,5 +1,5 @@
 class CatalogModels {
-  static final items = [
+  static var items = [
     Item(
       name: 'example_name',
       id: 1,
@@ -20,4 +20,24 @@ class Item {
   final String image;
 
   Item({this.color, this.name, this.id, this.desc, this.image, this.price});
+
+  factory Item.fromMap(Map<String,dynamic> map){
+    return Item(
+      id: map["id"],
+      name: map["name"],
+      desc: map["desc"],
+      image: map["image"],
+      price: map["price"],
+      color: map["color"],
+    );
+  }
+
+  toMap() => {
+    "id" : id,
+    "name" : name,
+    "desc" : desc,
+    "price" : price,
+    "color" : color,
+    "image" : image,
+  };
 }

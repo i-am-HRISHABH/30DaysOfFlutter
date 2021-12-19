@@ -1,0 +1,76 @@
+{
+    "products" : [
+        {
+            "name": "example_name",
+            "id": 1,
+            "desc": "this is an example product",
+            "price": 100,
+            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-12-family-select-2021?wid=940&hei=1112&fmt=jpeg&qlt=80&.v=1617135051000",
+            "color": "#33505a"
+        },
+        {
+            "name": "example_name2",
+            "id": 2,
+            "desc": "this is an example product",
+            "price": 100,
+            "image": "https://image01.realme.net/general/20210916/1631776475968.png",
+            "color": "#33505a"
+        },
+        {
+            "name": "example_name3",
+            "id": 3,
+            "desc": "this is an example product",
+            "price": 100,
+            "image": "https://image01.realme.net/general/20210928/1632817235526.png",
+            "color": "#33505a"
+        },
+        {
+            "name": "Emma Stone",
+            "id": 4,
+            "desc": "Gwen Stacy, TASM",
+            "price": 100,
+            "image": "https://i.pinimg.com/originals/8b/4c/dc/8b4cdc3d956372a5abf1a1fc109354bc.jpg",
+            "color": "#33505a"
+        },
+        {
+            "name": "example_name",
+            "id": 5,
+            "desc": "this is an example product",
+            "price": 100,
+            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-12-family-select-2021?wid=940&hei=1112&fmt=jpeg&qlt=80&.v=1617135051000",
+            "color": "#33505a"
+        },
+        {
+            "name": "example_name",
+            "id": 6,
+            "desc": "this is an example product",
+            "price": 100,
+            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-12-family-select-2021?wid=940&hei=1112&fmt=jpeg&qlt=80&.v=1617135051000",
+            "color": "#33505a"
+        },
+        {
+            "name": "example_name",
+            "id": 7,
+            "desc": "this is an example product",
+            "price": 100,
+            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-12-family-select-2021?wid=940&hei=1112&fmt=jpeg&qlt=80&.v=1617135051000",
+            "color": "#33505a"
+        },
+        {
+            "name": "example_name",
+            "id": 8,
+            "desc": "this is an example product",
+            "price": 100,
+            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-12-family-select-2021?wid=940&hei=1112&fmt=jpeg&qlt=80&.v=1617135051000",
+            "color": "#33505a"
+        },
+        {
+            "name": "example_name",
+            "id": 9,
+            "desc": "this is an example product",
+            "price": 100,
+            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-12-family-select-2021?wid=940&hei=1112&fmt=jpeg&qlt=80&.v=1617135051000",
+            "color": "#33505a"
+        }
+    ]
+}
