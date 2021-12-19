@@ -17,7 +17,7 @@ class ItemWidget extends StatelessWidget {
         onTap: (){
           print('${item.name} pressed');
         },
-        leading: Image.network('https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-12-family-select-2021?wid=940&hei=1112&fmt=jpeg&qlt=80&.v=1617135051000'),
+        leading: Image.network(item.image),
         title: Text(item.name),
         subtitle: Text(item.desc),
         trailing: Text('\$${item.price}',style: TextStyle(
