@@ -40,7 +40,12 @@ class _HomePageState extends State<HomePage> {
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: CatalogModels.items != null
-            ? ListView.builder(
+            ? GridView.builder(
+                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                  crossAxisCount: 2,
+                  mainAxisSpacing: 20,
+                  crossAxisSpacing: 16,
+                ),
                 itemCount: CatalogModels.items.length,
                 itemBuilder: (context, index) =>
                     ItemWidget(item: CatalogModels.items[index]),
